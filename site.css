@@ -7,6 +7,7 @@ body{
     filter: blur(); 
 }
 h1{
-    
+    font-size: 3vw;
+    color: darkred;
 }
 
