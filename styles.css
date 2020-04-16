@@ -19,7 +19,7 @@
 }
 
 nav ul li a:hover {
-    color: brown;
+    color: brown !important;
 }
 
 nav ul {
@@ -41,10 +41,4 @@ p {
 h1 {
     font-family: Open Sans;
     font-weight: 800;
-}
-
-@media only screen and (max-width: 600px) {
-    .parallax-container img {
-        width: auto;
-    }
 }
