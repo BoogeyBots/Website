@@ -42,3 +42,7 @@ h1 {
     font-family: Open Sans;
     font-weight: 800;
 }
+
+.activator {
+    font-weight: 400 !important;
+}
