@@ -1,32 +1,78 @@
 <!DOCTYPE html>
 
-<html class="no-js">
+<html lang="ro-RO">
 
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>BoogeyBots</title>
-    <meta name="description" content="Site-ul echipei BoogeyBots">
+    <title>FTC's RO141</title>
+
+    <meta name="description" content="Site-ul echipei de robotică BoogeyBots">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="site.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
-    <div class="topnav">
-        <a class="active" href="#home">Home</a>
-        <a href="#news">Our Team</a>
-        <a href="#contact">Contact</a>
-        <a href="#about">About</a>
+
+
+    <nav>
+        <div class="nav-wrapper black lighten-1">
+            <a href="#" class="navbar-brand"><img src="boogey_logo.jpg"> </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="#">Our Team</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <h1 class="header center red-text text-darken-4">BoogeyBots</h1>
+                <div class="row center">
+                    <h5 class="header col s12 deep-orange-text">Echipa de robotică a Colegiului Național "Alexandru Vlahuță"</h5>
+                </div>
+                <div class="row center">
+                    <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+                </div>
+                <br><br>
+
+            </div>
+        </div>
+        <div class="parallax"><img src="brickbot_demo.jpg" alt="Unsplashed background img 1"></div>
     </div>
+
 
     <div class="container">
-        <div class="text_img"><strong>BOOGEYBOTS</strong></div>
-        <img src="logo.jfif" alt="logo">
+        <div class="section">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h4>Contact Us</h4>
+                    <p class="left-align light">Contactati ne la nr de telfon 074 blabla</p>
+                </div>
+            </div>
+
+        </div>
     </div>
 
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        (function($) {
+            $(function() {
 
+                $('.sidenav').sidenav();
+                $('.parallax').parallax();
 
-    <p>Echipa BOOGEYBOTS</p>
+            }); // end of document ready
+        })(jQuery); // end of jQuery name space
+    </script>
 </body>
 
 </html>

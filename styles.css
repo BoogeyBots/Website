@@ -1,0 +1,17 @@
+.navbar-brand {
+    padding: 10vw;
+}
+
+.navbar-brand>img {
+    height: 64px;
+    padding: 0px;
+    width: auto;
+}
+
+nav ul li a:hover {
+    color: brown;
+}
+
+.parallax-container {
+    height: 700px;
+}
