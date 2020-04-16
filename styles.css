@@ -33,3 +33,7 @@ nav ul {
 p {
     font-family: sans-serif;
 }
+
+#nav-mobile a {
+    color: white;
+}
