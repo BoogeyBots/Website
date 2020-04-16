@@ -1,5 +1,16 @@
+@media only screen and (max-width: 992px) {
+    .navbar-brand>img {
+        height: 56px !important;
+        padding: 0px;
+        width: auto;
+    }
+    .navbar-brand {
+        padding-left: 20vw !important;
+    }
+}
+
 .navbar-brand {
-    padding: 10vw;
+    padding-left: 10vw;
 }
 
 .navbar-brand>img {
