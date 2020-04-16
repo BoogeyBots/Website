@@ -11,6 +11,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 
 </head>
@@ -18,14 +19,28 @@
 <body>
     <nav>
         <div class="nav-wrapper black lighten-1">
-            <a href="index.html" class="navbar-brand"><img src="boogey_logo.jpg"> </a>
+            <a href="index.html" class="navbar-brand"><img src="boogey_logo_png.png
+                "> </a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a href="our_team.html">Our Team</a></li>
                 <li><a href="#">Contact Us</a></li>
                 <li><a href="#">About Us</a></li>
+                <li><a href="https://www.facebook.com/BoogeyBots.team/"><i class = "right fa fa-facebook"></i></a></li>
+                <li><a href="https://www.facebook.com/BoogeyBots.team/"><i class = "right fa fa-instagram"></i></a></li>
             </ul>
+
         </div>
     </nav>
+
+    <ul id="mobile-demo" class="sidenav">
+        <li><a href="our_team.html">Our Team</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="https://www.facebook.com/BoogeyBots.team/"><i class = "left fa fa-facebook"></i></a></li>
+        <li><a href="https://www.facebook.com/BoogeyBots.team/"><i class = "left fa fa-instagram"></i></a></li>
+    </ul>
 
     <div class="container">
         <div class="row center">
@@ -58,13 +73,36 @@
                         <img src="nicusor.jpg" class="activator">
                     </div>
                     <div class="card-content">
-                        <h5 class="red-text text-darken-4 center-align">NICUSOR CRUCERU</h5>
+                        <h5 class="red-text text-darken-4 center-align">NICUȘOR CRUCERU</h5>
                         <h6 class="center-align">Programator Chef</h6>
                     </div>
                     <div class="card-reveal">
-                        <span class="card-title red-text text-darken-4 center-align">NICUSOR CRUCERU
+                        <span class="card-title red-text text-darken-4 center-align">NICUȘOR CRUCERU
                             <a href = "https://github.com/nicusor43" target="_blank"><p class = "center">
                             <i class="fa fa-github"></i></p>
+                            <a href = "https://www.instagram.com/nicusor_43/?hl=ro" target="_blank"><p class = "center">
+                                <i class="fa fa-instagram"></i></p></a>
+                        </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col s6 m3">
+                <div class="card medium">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img src="costelush.jpg" class="activator">
+                    </div>
+                    <div class="card-content">
+                        <h5 class="red-text text-darken-4 center-align">COSTEL PETREA</h5>
+                        <h6 class="center-align">Șeful la Șeful Șefilor</h6>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title red-text text-darken-4 center-align">COSTEL PETREA
+                            <a href = "https://www.facebook.com/profile.php?id=100008522895417" target="_blank"><p class = "center">
+                            <i class="fa fa-facebook"></i></p>
+                            <a href = "https://www.instagram.com/costelpetrea/?hl=ro" target="_blank"><p class = "center">
+                                <i class="fa fa-instagram"></i></p></a>
                         </a>
                         </span>
                     </div>
@@ -82,8 +120,10 @@
                     </div>
                     <div class="card-reveal">
                         <span class="card-title red-text text-darken-4 center-align">CARP BOGDAN
-                            <a href = "https://github.com/nicusor43" target="_blank"><p class = "center">
-                            <i class="fa fa-github"></i></p>
+                            <a href = "https://www.facebook.com/bogdan.carp.94" target="_blank"><p class = "center">
+                            <i class="fa fa-facebook"></i></p>
+                            <a href = "https://www.instagram.com/brev.404/?hl=ro" target="_blank"><p class = "center">
+                                <i class="fa fa-instagram"></i></p></a>
                         </a>
                         </span>
                     </div>
@@ -92,8 +132,21 @@
 
         </div>
 
+
+
+
+
         <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
         <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            (function($) {
+                $(function() {
+
+                    $('.sidenav').sidenav();
+
+                }); // end of document ready
+            })(jQuery); // end of jQuery name space
+        </script>
 </body>
 
 </html>

@@ -12,6 +12,10 @@ nav ul li a:hover {
     color: brown;
 }
 
+nav ul {
+    padding-right: 5vw;
+}
+
 .parallax-container {
     height: 700px;
 }
