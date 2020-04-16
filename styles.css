@@ -15,3 +15,7 @@ nav ul li a:hover {
 .parallax-container {
     height: 700px;
 }
+
+p {
+    font-family: sans-serif;
+}
