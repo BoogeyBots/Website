@@ -62,10 +62,18 @@ hr {
     border: 2px solid rgba(128, 3, 3, 1);
 }
 
-a .fa {
+.card-reveal a .fa {
     transition: transform .8s;
 }
 
 a .fa:hover {
     transform: rotate(360deg);
+}
+
+nav .fa {
+    font-size: 1.35 rem;
+}
+
+.sidenav a {
+    font-size: 1.5rem !important;
 }
