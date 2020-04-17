@@ -4,6 +4,9 @@
         padding: 0px;
         width: auto;
     }
+    .parallax-container {
+        height: 500px !important;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -39,8 +42,11 @@ p {
 }
 
 h1 {
-    font-family: Open Sans;
-    font-weight: 800;
+    font-weight: 600;
+}
+
+#logo_content {
+    width: 100% !important;
 }
 
 .activator {
@@ -50,4 +56,8 @@ h1 {
 .nav-wrapper {
     background: rgb(0, 0, 0);
     background: linear-gradient(55deg, rgba(0, 0, 0, 1) 0%, rgba(128, 3, 3, 1) 100%);
+}
+
+hr {
+    border: 2px solid #cc0000;
 }
