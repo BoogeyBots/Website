@@ -86,7 +86,7 @@ nav .fa {
 .sidenav {
     padding-top: 6%;
     padding-left: 5% !important;
-    width: 60%;
+    width: 67%;
     background: linear-gradient(10deg, rgba(0, 0, 0, 1) 0%, rgba(128, 3, 3, 1) 100%);
 }
 
@@ -98,4 +98,9 @@ nav .fa {
 
 .sidenav li a i {
     color: white;
+}
+
+.card-content h6 {
+    font-weight: 500;
+    font-size: 1.2rem;
 }
