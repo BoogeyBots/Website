@@ -78,3 +78,7 @@ nav .fa {
 .sidenav a {
     font-size: 1.5rem !important;
 }
+
+.short-hr {
+    width: 30%;
+}
