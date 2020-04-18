@@ -46,10 +46,10 @@
 
     <div class="container">
         <div class="row center">
-            <h2 class="header col s12 dark">Our Team</h2>
-        </div>
+            <h2 class=" col s12 dark">Our Team</h2>
 
-        <hr>
+        </div>
+        <hr class="short-hr">
         <br><br>
 
         <div class="row">
@@ -205,6 +205,15 @@
                 $(function() {
 
                     $('.sidenav').sidenav();
+
+                    $('.card').hover(
+                        function() {
+                            $(this).find('> .card-image > img.activator').click();
+                        },
+                        function() {
+                            $(this).find('> .card-reveal > .card-title').click();
+                        }
+                    );
 
                 }); // end of document ready
             })(jQuery); // end of jQuery name space
