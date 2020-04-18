@@ -82,3 +82,21 @@ nav .fa {
 .short-hr {
     width: 30%;
 }
+
+.sidenav {
+    padding-top: 6%;
+    padding-left: 5% !important;
+    width: 60%;
+    background-color: rgba(128, 3, 3, 1);
+}
+
+.sidenav li a {
+    font-size: 2rem !important;
+    padding-bottom: 4rem !important;
+    color: white;
+    background-color: rgba(128, 3, 3, 1);
+}
+
+.sidenav li a i {
+    color: white;
+}
