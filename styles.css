@@ -99,3 +99,8 @@ nav .fa {
 .sidenav li a i {
     color: white;
 }
+
+.card-content h6 {
+    font-weight: 500;
+    font-size: 1.2rem;
+}
