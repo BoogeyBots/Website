@@ -7,6 +7,9 @@
     .parallax-container {
         height: 500px !important;
     }
+    nav .brand-logo {
+        left: 46.5% !important;
+    }
 }
 
 @media only screen and (min-width: 992px) {
