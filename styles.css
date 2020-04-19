@@ -104,3 +104,9 @@ nav .fa {
     font-weight: 500;
     font-size: 1.2rem;
 }
+
+.page-footer li span a i {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 60px;
+}
