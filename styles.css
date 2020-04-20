@@ -117,3 +117,8 @@ nav .fa {
     margin-top: 20px;
     margin-right: 60px;
 }
+
+.no-border .card {
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
