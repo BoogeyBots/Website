@@ -122,3 +122,11 @@ nav .fa {
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
 }
+
+.dugheana {
+    z-index: 0 !important;
+}
+
+.atak {
+    z-index: 2 !important;
+}
