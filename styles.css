@@ -7,9 +7,6 @@
     .parallax-container {
         height: 500px !important;
     }
-    nav #our_team {
-        left: 47% !important;
-    }
 }
 
 @media only screen and (min-width: 992px) {
