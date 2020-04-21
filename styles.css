@@ -7,6 +7,9 @@
     .parallax-container {
         height: 500px !important;
     }
+    .iban {
+        font-size: 1.60rem;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -126,8 +129,4 @@ nav .fa {
 
 .ital-prod {
     margin-top: 25px !important;
-}
-
-.iban {
-    font-size: 1.60rem;
 }
