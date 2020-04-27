@@ -16,6 +16,13 @@
     .brand-logo {
         padding-left: 10vw !important;
     }
+    .atak-big {
+        margin-top: 70px !important;
+    }
+    .big-container {
+        width: 95% !important;
+        margin: 0 auto;
+    }
 }
 
 .brand-logo>img {
@@ -129,4 +136,21 @@ nav .fa {
 
 .ital-prod {
     margin-top: 25px !important;
+}
+
+.middle-indicator {
+    position: absolute;
+    top: 45%;
+}
+
+.middle-indicator i {
+    font-size: 3rem;
+}
+
+.materialboxed {
+    object-fit: cover !important;
+}
+
+.carousel-item {
+    object-fit: cover !important;
 }

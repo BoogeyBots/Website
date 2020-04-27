@@ -126,13 +126,40 @@
         </div>
         <div class="parallax"><img src="brickbot_demo.jpg" alt="Unsplashed background img 1"></div>
     </div>
+    <br>
+
+    <div class="container">
+        <h2 class="header center black-text"> GALERIE</h2>
+        <hr class="short-hr">
+    </div>
+    <br>
+    <div class=" big-container">
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="card">
+                    <img src="minister-2019.jpg" class="materialboxed responsive-img">
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <img src="nationala-2019.jpg" class="materialboxed responsive-img">
+                </div>
+            </div>
+            <div class="col s12 m4">
+                <div class="card">
+                    <img src="quantum-team-photo.jpg" class="materialboxed responsive-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="container no-border">
         <h2 class="header center black-text"> SPONSORI</h2>
         <hr class="short-hr">
         <div class="row">
-            <div class="col s6 m2 push-m1 hide-on-med-and-down">
-                <div class="card">
+            <div class="col s6 m2 push-m1 hide-on-med-and-down atak-big">
+                <div class="card ">
 
                     <a href="https://www.facebook.com/pages/category/Local-Business/Atak-Security-1639021399701222/" target="_blank"><img src="atak_logo.jpg" class="responsive-img"> </a>
                 </div>
@@ -216,7 +243,28 @@
 
                 $('.sidenav').sidenav();
                 $('.parallax').parallax();
+                $('.materialboxed').materialbox();
 
+                // start carrousel
+                $('.carousel.carousel-slider').carousel({
+                    fullWidth: true,
+                    indicators: false
+                });
+
+
+                // move next carousel
+                $('.moveNextCarousel').click(function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    $('.carousel').carousel('next');
+                });
+
+                // move prev carousel
+                $('.movePrevCarousel').click(function(e) {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    $('.carousel').carousel('prev');
+                });
             }); // end of document ready
         })(jQuery); // end of jQuery name space
     </script>
