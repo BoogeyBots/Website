@@ -10,6 +10,12 @@
     .iban {
         font-size: 1.60rem;
     }
+    .grid-item{
+        width: 90%;
+        margin: auto;
+        display: block;     
+        padding-bottom: 10%;   
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -23,6 +29,8 @@
         width: 95% !important;
         margin: 0 auto;
     }
+    
+      
 }
 
 .brand-logo>img {
@@ -158,3 +166,41 @@ nav .fa {
 .fa-plus-circle {
     font-size: 3.3rem !important;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+.column {
+    flex: 33.33%;
+    max-width: 33.33%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 15px;
+    vertical-align: middle;
+    width: 100%;
+
+}
+
+
+@media screen and (max-width: 800px) {
+    .column {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        flex: 100%;
+        max-width: 100%;
+    }
+    .column img{
+        margin-bottom: 6% ;
+    }
+}
+
