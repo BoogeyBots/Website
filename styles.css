@@ -167,7 +167,7 @@ nav .fa {
     font-size: 3.3rem !important;
 }
 
-.row {
+.big-container .row {
     display: flex;
     flex-wrap: wrap;
     padding: 0 4px;
