@@ -85,6 +85,11 @@ hr {
     font-size: 2.3rem;
 }
 
+.page-footer .fa:hover {
+    transform: rotate(360deg);
+    transition: transform .7s;
+}
+
 .card-reveal a .fa:hover {
     transform: rotate(360deg);
 }
@@ -202,5 +207,9 @@ nav .fa {
     .column img{
         margin-bottom: 6% ;
     }
+}
+
+#help-alert:hover{
+    box-shadow: 5px 5px 3px 3px lightcoral;
 }
 
