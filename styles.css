@@ -213,3 +213,22 @@ nav .fa {
     box-shadow: 5px 5px 3px 3px lightcoral;
 }
 
+@media only screen and (max-width: 600px) {
+    .slides {
+      height: 250px !important;
+    }
+    .slider {
+    height: 280px !important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .slides {
+        height: 600px !important;
+    }
+    .slider {
+        height: 650px !important;
+    }
+}
+
+
